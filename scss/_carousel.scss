@@ -1,0 +1,35 @@
+.carousel-indicators {
+    justify-content: center;
+}
+
+.carousel-inner {
+    box-shadow: $shadow;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#carouselExampleCaptions {
+    padding: 1em 7em;
+    margin: 1em 5em;
+}
+
+#carousel-grid {
+    display: grid;
+    grid-template-areas: "texto image";
+    justify-content: center;
+    align-items: center;
+    img {
+        grid-area: image;
+    }
+    div {
+        grid-area: texto;
+        font-family: $fuente-sitio;
+        p {
+            font-size: 1.2em;
+        }
+    }
+}
+
+.carousel-item img {
+    @include size(40em, 30em);
+}

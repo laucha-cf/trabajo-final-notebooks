@@ -1,0 +1,86 @@
+nav.nav-grid {
+    display: grid;
+    grid-template-areas: "logo ul ul ul";
+    grid-template-columns: 1/2fr, repeat(3, 5fr);
+}
+
+ul.ul-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 100%;
+}
+
+
+/*elementos del ul*/
+
+
+/*Grids areas nav*/
+
+div.logo {
+    grid-area: logo;
+}
+
+ul {
+    grid-area: ul;
+}
+
+
+/*//////////*/
+
+
+/*Logo*/
+
+div#logo {
+    margin-top: .5em;
+    a {
+        list-style-type: none;
+        text-decoration: none;
+        display: grid;
+        grid-template-areas: "imgLogo title";
+        align-items: center;
+        img {
+            height: 3em;
+            grid-area: imgLogo;
+        }
+        h1 {
+            grid-area: title;
+            font-family: $fuente-logo;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: $color-logo;
+        }
+    }
+}
+
+
+/*Links*/
+
+nav {
+    @include flexbox(flex, row);
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    ul {
+        align-items: center;
+        background-color: black;
+        border-radius: 5px;
+        list-style-type: none;
+    }
+    li {
+        border-radius: 5px;
+        a {
+            color: white;
+            text-decoration: none;
+            font-family: $fuente-sitio;
+            font-weight: lighter;
+            letter-spacing: 2px;
+            text-align: center;
+            padding: 20px;
+        }
+        a:hover {
+            @include colores(#0e0b0b, $second-color);
+            border-radius: 5px;
+            text-decoration: none;
+        }
+    }
+}

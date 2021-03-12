@@ -1,0 +1,41 @@
+div.profile-container {
+    border: 1px solid black;
+    border-radius: 1em;
+    box-shadow: $shadow;
+    margin: 1em 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    row-gap: .5em;
+    font-size: 1.5em;
+    font-family: $fuente-sitio;
+    p {
+        color: black;
+    }
+    img {
+        width: 15em;
+        margin-top: 1em;
+    }
+}
+
+div.tarjetas {
+    @include flexbox(flex, column);
+    align-items: center;
+    img {
+        width: 5em;
+    }
+    h4 {
+        @include flexbox(flex, row);
+        align-items: center;
+        justify-content: center;
+        @include size(10em, 2em);
+        border-radius: 3px;
+        @include colores( black, white);
+        font-size: 200;
+    }
+}
+
+.each-tarjeta {
+    @include flexbox(flex, column);
+    align-items: center;
+}

@@ -1,0 +1,66 @@
+footer {
+    display: flex;
+    align-items: center;
+    background-color: $second-color;
+    grid-template-areas: "address redes redes redes redes";
+    padding: 40px;
+}
+
+address {
+    grid-area: address;
+}
+
+ul#redes-sociales {
+    grid-area: redes;
+}
+
+
+/*Derechos reservados*/
+
+footer address {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+}
+
+footer address img {
+    filter: invert(100%);
+    width: 15px;
+}
+
+
+/*Redes sociales*/
+
+ul#redes-sociales {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+    font-family: $fuente-sitio;
+}
+
+ul#redes-sociales li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+ul#redes-sociales {
+    li {
+        a,
+        a:hover,
+        a:visited {
+            text-decoration: none;
+            color: black;
+            font-weight: 400;
+            font-size: 1em;
+        }
+        a img {
+            width: 30px;
+            margin-right: 5px;
+        }
+    }
+}

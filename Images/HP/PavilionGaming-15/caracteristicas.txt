@@ -1,0 +1,22 @@
+$146.800 + IVA 10,5%
+
+Ryzen 5 4600H APU, 6 núcleos, 4,0Ghz con TURBO BOOST
+8GB RAM DDR4 (máximo 32 Gb)
+250 GB disco solido M.2
+15,6 pulgadas FULL HD 1920×1080 220 nits
+Teclado retro iluminado por LEDs en Inglés con keypad numerico
+Tarjeta gráfica NVIDIA GeForce GTX 1650 con 4GB GDDR5 
+Webcam HD integrada con micrófono
+2 x USB-A 3.1
+1 x Puerto USB 3.1 Gen 2 Tipo-C (DisplayPort 1.4 y Power Delivery 3.0)
+1 x HDMI
+Lector de tarjetas multi formato SD
+Wifi Realtek 802.11b/g/n/a/ac (2×2)
+Bluetooth 4.2
+1 x RJ45
+Audio by B&O; Dual speakers; HP Audio Boost
+Batería 3 celdas 52.5Whr
+Medidas 36 cm x 25.6 cm x 2.34 cm
+Peso 2.25Kg
+Color Negro
+Windows 10 Home

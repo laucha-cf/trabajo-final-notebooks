@@ -1,0 +1,51 @@
+main form {
+    border: 5px solid white;
+    @include colores(black, white);
+    text-align: center;
+    font-family: $fuente-sitio;
+    @include seteoValores( 2em 5em, 1em);
+    box-shadow: $shadow;
+}
+
+main form fieldset {
+    @include flexbox(flex, column);
+    align-items: center;
+    row-gap: 20px;
+    color: white;
+}
+
+main form fieldset legend {
+    font-size: 1.5em;
+}
+
+div#contact-buttons {
+    width: 300px;
+    @include flexbox(flex, row);
+    justify-content: space-around;
+}
+
+div.textarea textarea {
+    @include size(18em, 12em);
+    border-radius: 5px;
+}
+
+div.datos span,
+div.datos label {
+    font-size: 1.2em;
+}
+
+div.datos {
+    input,
+    select {
+        height: 25px;
+        border-radius: 3px;
+    }
+    input#check {
+        width: 20px;
+    }
+}
+
+div#newsletter {
+    @include flexbox(flex, row);
+    align-items: center;
+}

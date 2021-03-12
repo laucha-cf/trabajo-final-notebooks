@@ -1,0 +1,21 @@
+main#gallery {
+    .card {
+        font-family: $fuente-sitio;
+        @include flexbox(flex, column);
+        justify-content: center;
+        align-items: center;
+        @include size(20rem, 33rem);
+        @include seteoValores(1em, 5px 0 0 0);
+        box-shadow: $shadow;
+        img {
+            width: 18rem;
+        }
+    }
+}
+
+div.card-body {
+    @include flexbox(flex, column);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

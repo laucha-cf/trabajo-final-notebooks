@@ -1,0 +1,33 @@
+/*Seteo por defecto*/
+
+* {
+    @include seteoValores(0%, 0%);
+}
+
+
+/*Layout de las páginas*/
+
+div.contenedor {
+    display: grid;
+    grid-template-areas: "header header header header" "covid covid covid covid" "main main main main" "footer footer footer footer";
+    row-gap: 10px;
+}
+
+
+/*Grid areas*/
+
+header {
+    grid-area: header;
+}
+
+div.aviso-covid {
+    grid-area: covid;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}

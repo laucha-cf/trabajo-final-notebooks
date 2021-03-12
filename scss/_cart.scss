@@ -1,0 +1,36 @@
+.table-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 2em;
+}
+
+main table {
+    box-shadow: $shadow;
+    background-color: #0e0b0b;
+    color: white;
+    margin-bottom: 1em;
+    tr {
+        th {
+            background-color: white;
+            color: #0e0b0b;
+            padding: 10px;
+            font-size: 20px;
+            font-family: serif;
+        }
+        td {
+            @include seteoValores(5px, 10px);
+            text-align: center;
+            font-family: $fuente-sitio;
+            ul li {
+                list-style-type: none;
+                text-align: left;
+            }
+        }
+        td.marca-cart {
+            font-weight: bold;
+            font-family: serif;
+        }
+    }
+}

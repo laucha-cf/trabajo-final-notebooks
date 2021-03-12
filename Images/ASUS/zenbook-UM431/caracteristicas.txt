@@ -1,0 +1,23 @@
+$128.450 + IVA 10,5%
+
+AMD Ryzen™ 5 3500U Processor ( 6 nucleos, 2M Cache, max 3.7 GHz)
+8GB RAM DDR4
+512 GB disco solido PCIE NVME M.2
+Pantalla 14 pulgadas Full HD (1920 x 1080) 16:9, LED Backlit , 250nits , Anti-glare display, sRGB: 100%, IPS-level Panel
+Video AMD Radeon Vega 8
+Teclado Español retroiluminado por LED
+Wi-Fi 5(802.11ac) (Dual band) 2*2
+Bluetooth 4.2
+Lector de huellas
+1x USB 2.0 Type-A
+1x USB 3.2 Gen 1 Type-A
+1x USB 3.2 Gen 1 Type-C
+Webcam 720p con microfono
+1 x HDMI
+1 x 1/8″ / 3.5 mm Headphone/Microphone Input/Output
+Parlantes estereo
+Batería 47whr
+Medidas: 319 x 199 x 16.9 mm
+Peso 1.3kg
+Incluye funda
+Sistema operativo: Linux Endless (se puede instalar windows 10)

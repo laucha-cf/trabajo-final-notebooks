@@ -1,0 +1,29 @@
+$background: rgb(107, 67, 160);
+$fuente-sitio: 'Kanit',
+sans-serif;
+$shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+0 6px 20px 0 rgba(0, 0, 0, 0.19);
+$color-logo: rgb(107, 12, 176);
+$fuente-logo: 'Anton',
+sans-serif;
+@mixin seteoValores( $margen, $padding) {
+    margin: $margen;
+    padding: $padding;
+}
+
+@mixin size($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+@mixin colores( $background, $color) {
+    background-color: $background;
+    color: $color;
+}
+
+@mixin flexbox( $display, $direction) {
+    display: $display;
+    flex-flow: $direction;
+}
+
+$second-color: #b0464a;
