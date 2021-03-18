@@ -78,7 +78,7 @@ nav {
             padding: 20px;
         }
         a:hover {
-            @include colores(#0e0b0b, $second-color);
+            @include colores(#0e0b0b, $color-logo);
             border-radius: 5px;
             text-decoration: none;
         }
