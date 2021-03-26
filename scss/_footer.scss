@@ -1,7 +1,7 @@
 footer {
     display: flex;
     align-items: center;
-    background-color: $second-color;
+    background-color: black;
     grid-template-areas: "address redes redes redes redes";
     padding: 40px;
 }
@@ -21,7 +21,7 @@ footer address {
     font-style: italic;
     font-weight: 500;
     font-size: 15px;
-    color: black;
+    color: white;
 }
 
 footer address img {
@@ -54,7 +54,7 @@ ul#redes-sociales {
         a:hover,
         a:visited {
             text-decoration: none;
-            color: black;
+            color: white;
             font-weight: 400;
             font-size: 1em;
         }
