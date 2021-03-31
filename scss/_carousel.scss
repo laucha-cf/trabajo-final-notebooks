@@ -33,3 +33,12 @@
 .carousel-item img {
     @include size(40em, 30em);
 }
+
+@media only screen and(max-width:1024px) {
+    .carousel-item img {
+        @include size(20em, 15em);
+    }
+    #carousel-grid>div {
+        display: none;
+    }
+}

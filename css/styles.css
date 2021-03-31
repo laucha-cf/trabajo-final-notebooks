@@ -14,7 +14,8 @@
 div.contenedor {
   display: grid;
   grid-template-areas: "header header header header" "covid covid covid covid" "main main main main" "footer footer footer footer";
-  row-gap: 10px; }
+  row-gap: 10px;
+  height: 100vh; }
 
 /*Grid areas*/
 header {
@@ -190,6 +191,13 @@ nav {
 .carousel-item img {
   width: 40em;
   height: 30em; }
+
+@media only screen and (max-width: 1024px) {
+  .carousel-item img {
+    width: 20em;
+    height: 15em; }
+  #carousel-grid > div {
+    display: none; } }
 
 div p#covid-19 {
   background-color: #b0464a;

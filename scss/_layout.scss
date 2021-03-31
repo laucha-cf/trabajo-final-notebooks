@@ -11,6 +11,7 @@ div.contenedor {
     display: grid;
     grid-template-areas: "header header header header" "covid covid covid covid" "main main main main" "footer footer footer footer";
     row-gap: 10px;
+    height: 100vh;
 }
 
 
