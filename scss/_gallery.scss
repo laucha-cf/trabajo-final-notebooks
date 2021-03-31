@@ -19,3 +19,22 @@ div.card-body {
     align-items: center;
     text-align: center;
 }
+
+@media only screen and ( max-width:1024px) {
+    main#gallery {
+        .card {
+            @include size(15rem, 22rem);
+            @include seteoValores(.5em, 5px 0 0 0);
+            img {
+                width: 10rem;
+            }
+        }
+    }
+    div.card-body {
+        a.btn-primary {
+            font-weight: 200;
+            font-size: 10px;
+        }
+        font-size: 10px;
+    }
+}

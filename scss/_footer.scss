@@ -67,7 +67,6 @@ ul#redes-sociales {
 
 @media only screen and ( max-width:1024px) {
     footer {
-        grid-template-areas: "address redes";
         ul#redes-sociales {
             display: flex;
             flex-flow: column;

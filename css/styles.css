@@ -31,7 +31,8 @@ footer {
 
 /*Por bloque*/
 body {
-  background-color: #6b43a0; }
+  background-color: #6b43a0;
+  margin-bottom: 40px; }
   body .btn-primary:hover {
     border: 1px solid white;
     background-color: black; }
@@ -88,13 +89,11 @@ ul#redes-sociales li a img {
   margin-right: .5em; }
 
 @media only screen and (max-width: 1024px) {
-  footer {
-    grid-template-areas: "address redes"; }
-    footer ul#redes-sociales {
-      display: flex;
-      flex-flow: column;
-      align-items: flex-start;
-      row-gap: 1em; } }
+  footer ul#redes-sociales {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    row-gap: 1em; } }
 
 /*Por secciónes*/
 nav.nav-grid {
@@ -300,6 +299,20 @@ div.card-body {
   justify-content: center;
   align-items: center;
   text-align: center; }
+
+@media only screen and (max-width: 1024px) {
+  main#gallery .card {
+    width: 15rem;
+    height: 22rem;
+    margin: 0.5em;
+    padding: 5px 0 0 0; }
+    main#gallery .card img {
+      width: 10rem; }
+  div.card-body {
+    font-size: 10px; }
+    div.card-body a.btn-primary {
+      font-weight: 200;
+      font-size: 10px; } }
 
 div.profile-container {
   border: 1px solid black;
